@@ -1,0 +1,4 @@
+#!/bin/sh
+
+#Name the command that reboots the SSH Service
+service ssh restart

@@ -1,0 +1,7 @@
+#!/bin/sh
+
+#List all services which are started at boot time and name this kind of
+# services
+
+systemctl --type service --all
+

@@ -1,0 +1,8 @@
+#!/bin/sh
+
+#Find the command that list all packages
+
+dpkg --get-selections
+
+#--get-selections is a less verbose list of the packages
+# for more info, use dpkg -l

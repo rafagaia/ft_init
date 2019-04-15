@@ -1,0 +1,11 @@
+#!/bin/sh
+
+#Find the command that allows you to connect via ssh on the VM
+
+#run ip a on the machine where ssh server is running
+# use the inet IP_ADDR address to connect:
+
+ssh -p PORT USERNAME@IP_ADDR
+
+#example: ssh -p 22 debianai@10.0.2.15
+

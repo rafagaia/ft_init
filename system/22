@@ -1,0 +1,7 @@
+#!/bin/sh
+
+#Find the command that add a new local user
+
+adduser user_name
+
+#May need SUDO permission

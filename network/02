@@ -1,0 +1,11 @@
+#!/bin/sh
+
+#Identify and display the Ethernet interface characteristics:
+#(a) Identify broadcast address:
+echo "Identify Broadcast Adress:"
+ifconfig en0 | grep "broadcast" | awk '{print $6}'
+echo "********************************"
+
+#(b) Identify all IP addresses which are part of the same subnet:
+echo "Identify All IP Addresses Part of same subnet"
+ifconfig en0 | awk '{print $2}' | sed -n '3,5p'

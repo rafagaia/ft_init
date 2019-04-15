@@ -1,0 +1,6 @@
+#!/bin/sh
+
+#What file contains the RSA keys of the system that are authorized to
+#	connect via SSH?
+
+#File: ~/.ssh/authorized_keys

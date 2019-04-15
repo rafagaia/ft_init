@@ -1,0 +1,37 @@
+# Use the output of the previous command to find the name and IP address of the 
+# device that makes the link between you (local network) and the outside world
+
+Device Name: nat (Network Address Translation)
+Device IP Address: 10.90.1.11
+
+Command Output:
+$>traceroute slash16.org
+traceroute: Warning: slash16.org has multiple addresses; using 52.84.245.84
+traceroute to slash16.org (52.84.245.84), 64 hops max, 52 byte packets
+ 1  10.113.254.254 (10.113.254.254)  0.689 ms  0.347 ms  0.440 ms
+ 2  192.168.0.2 (192.168.0.2)  0.381 ms  0.337 ms  0.361 ms
+ 3  nat (10.90.1.11)  0.162 ms  0.203 ms  0.164 ms
+ 4  64.62.224.30 (64.62.224.30)  0.773 ms  0.783 ms  0.769 ms
+ 5  64.62.224.253 (64.62.224.253)  3.517 ms  3.353 ms  3.416 ms
+ 6  64.62.224.249 (64.62.224.249)  3.730 ms  3.755 ms  3.759 ms
+ 7  ve1851.core5.fmt2.he.net (216.218.200.77)  3.363 ms  3.455 ms  3.558 ms
+ 8  100ge14-1.core3.fmt2.he.net (184.105.65.177)  44.114 ms
+    100ge16-1.core4.fmt2.he.net (184.105.81.25)  4.242 ms
+    100ge14-1.core3.fmt2.he.net (184.105.65.177)  12.076 ms
+ 9  * 100ge10-2.core1.pao1.he.net (184.105.222.6)  4.013 ms
+    100ge14-2.core1.sjc2.he.net (72.52.92.246)  3.930 ms
+10  peering.r1.pix.dnsnode.net (198.32.176.217)  4.578 ms
+    equinix01-sfo5.amazon.com (206.223.116.177)  3.970 ms
+    equinix02-sfo5.amazon.com (206.223.116.236)  3.891 ms
+11  54.240.243.12 (54.240.243.12)  6.145 ms
+    54.240.243.112 (54.240.243.112)  4.760 ms
+    54.240.243.12 (54.240.243.12)  6.287 ms
+12  54.240.242.115 (54.240.242.115)  5.391 ms
+    54.240.242.55 (54.240.242.55)  5.716 ms
+    54.240.242.35 (54.240.242.35)  4.987 ms
+13  205.251.231.122 (205.251.231.122)  6.939 ms  4.620 ms
+    205.251.229.67 (205.251.229.67)  4.812 ms
+14  * 205.251.231.116 (205.251.231.116)  5.817 ms *
+15  * * *
+16  * * *
+17  * server-52-84-245-84.sfo20.r.cloudfront.net (52.84.245.84)  4.428 ms *

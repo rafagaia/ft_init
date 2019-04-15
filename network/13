@@ -1,0 +1,10 @@
+#Ip address from previous question: 10.113.7.7
+# Run 'host [ip_address_from_previous_question]
+#Run: 'host 10.113.7.7' for reverse DNS lookup in order to determine hostname
+# associated with IP address
+
+#Output:
+
+7.7.113.10.in-addr.arpa domain name pointer e1z3r7p7.42.us.org.
+
+Which is correct, as it shows the Lab Machine I'm logged on to

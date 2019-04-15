@@ -1,0 +1,8 @@
+#!/bin/sh
+
+#Find the command that kills the background command's process
+
+#$! expands to the PID of the last process executed in the background
+
+kill $!
+

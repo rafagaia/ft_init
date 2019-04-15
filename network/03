@@ -1,0 +1,4 @@
+#!/bin/sh
+
+#Identify MAC address of the Wi-Fi Card
+ifconfig en1 | grep "ether" | awk '{print $2}'

@@ -1,0 +1,4 @@
+#!/bin/sh
+
+#Name the command that determines the state of the SSH service
+/usr/sbin/service ssh status

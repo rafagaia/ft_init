@@ -1,0 +1,5 @@
+#!/bin/sh
+
+#Name the command that displays the available space left and used on the
+#	sytem in a humanly understandable way
+df -h

@@ -1,0 +1,14 @@
+# Make the intra.42.fr address reroute to 46.19.122.85
+
+# We do this by adding a new entry to /etc/hosts, which needs sudo permissions
+# if we had it, we would write the following entry on last line of the file:
+
+"intra.42.fr	46.19.122.85"
+
+Then, doing cat /etc/hosts would yield:
+cat /etc/hosts
+127.0.0.1       localhost
+255.255.255.255 broadcasthost
+::1             localhost
+intra.42.fr     46.19.122.85
+#10.51.1.38 	cdn.intra.42.fr

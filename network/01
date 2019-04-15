@@ -1,0 +1,6 @@
+#!/bin/sh
+
+# Get the list of network interfaces of the machine without
+# displaying any detail for there interfaces. Only list of names
+
+ifconfig -l

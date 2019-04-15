@@ -1,0 +1,6 @@
+#!/bin/sh
+
+#Figure out the PID of the SSHD service
+
+#By default, the PID file written by sshd is at: /var/run/sshd.pid
+cat /var/run/sshd.pid

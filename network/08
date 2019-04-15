@@ -1,0 +1,11 @@
+# Find the provider of slash16.org
+
+Slash16.org is hosted on Amazon Web Services, which can be found by running:
+'host -t ns slash16.org'
+
+If we observe the Output, we'll see the AWS abbreviation as aws:
+
+slash16.org name server ns-1236.awsdns-26.org.
+slash16.org name server ns-1989.awsdns-56.co.uk.
+slash16.org name server ns-686.awsdns-21.net.
+slash16.org name server ns-144.awsdns-18.com.

@@ -1,0 +1,7 @@
+#!/bin/sh
+
+#List all real users on the VM
+
+#User info is stored in /etc/passwd
+
+ls /home

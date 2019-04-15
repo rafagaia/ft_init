@@ -1,0 +1,6 @@
+#Explain how to connect yourself as a new user
+
+We can use the command "su user_name" to Switch User to the user named
+"user_name". It'll request the user_name's password, and that's it.
+
+

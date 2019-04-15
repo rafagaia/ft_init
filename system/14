@@ -1,0 +1,5 @@
+#!/bin/sh
+
+#Run the 'tail -f /var/log/syslog' command in the background
+
+tail -f /var/log/syslog &
